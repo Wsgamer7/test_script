@@ -1,0 +1,48 @@
+accounts:
+  - uid: 2410236327
+    # 账户ID 非账户用户名或手机号
+    password: d95774ac9257e9969985a1a7ec7bb5ff
+    # 账户密码或其MD5哈希
+    user-agent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+    # 登录社区时所用浏览器的 User-Agent
+    # 可在此工具查看：https://tool.chinaz.com/useragent
+
+    # 功能开关
+    check-in: true
+    # 社区成长值签到，启用功能意味着你愿意自行承担相关风险
+    browse-user-page: true
+    # 社区浏览个人主页10秒，启用功能意味着你愿意自行承担相关风险
+    browse-post: true
+    # 社区浏览帖子10秒，启用功能意味着你愿意自行承担相关风险
+    thumb-up: true
+    # 点赞帖子，启用功能意味着你愿意自行承担相关风险
+    browse-specialpage: false
+    # 社区在活动期间可能会出现限时的“浏览指定专题页”任务，启用功能意味着你愿意自行承担相关风险
+    board-follow: false
+    # 社区可能会出现限时的“加入圈子”任务，启用功能意味着你愿意自行承担相关风险
+    carrot-pull: false
+    # 社区拔萝卜，启用功能意味着你愿意自行承担相关风险
+
+# 若有多个账户，按照以下模板进行修改，使用时删除前端 #注释
+#  - uid: 100001
+#    password: abc123
+#    user-agent: 'Mozilla/5.0 (Android 11; Mobile; rv:95.0) Gecko/95.0 Firefox/95.0'
+#    check-in: false
+#    browse-user-page: false
+#    browse-post: false
+#    thumb-up: false
+#    browse-specialpage: false
+#    board-follow: false
+#    carrot-pull: false
+ONEPUSH:
+  notifier: false
+  params:
+    title:
+    markdown: false
+    token:
+    userid:
+
+logging: true
+# 归档日志到本地文件
+version: v1.6.0
+# config 文件版本号，debug用
